@@ -15,7 +15,7 @@ nltk.download("stopwords")
 st.title("Movie Recommendation System")
 
 # load dataset
-data = pd.read_csv(r"D:\TuteDude\Assignment20\tmdb_5000_movies.csv")
+data = pd.read_csv("tmdb_5000_movies.csv")
 print(data.head())
 
 # Select Required columns
